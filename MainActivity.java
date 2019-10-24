@@ -56,7 +56,7 @@ intent.putExtra("key1","5");
         String  userAnswerCounter=mSharePreferenceManager.read(ResultActivity.USER_RESULT);
 
         if(userAnswerCounter!=null){
-            mStatus.setText(Integer.toString(MainActivity.count)+"  სწორი პასუხი :)");
+            mStatus.setText(Integer.toString(MainActivity.count));
         }
         else{
             mStatus.setText(R.string.non_existing_last_result);
